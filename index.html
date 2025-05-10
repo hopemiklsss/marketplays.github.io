@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <style>
+         header{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100px;
+            background-color: #3d6098;
+            
+                 }
+        .logo{
+           color:white;
+           letter-spacing: 4px;
+           margin-right: 15px;
+           font-variant: small-caps;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           margin-right: 250px;
+                }
+                a{
+                    text-decoration: none;
+                    font-variant: small-caps;
+                    color:white;
+                    margin-right: 200px;
+                    transition: 0.5s;
+                    border-radius: 15px;
+                    
+                }
+                a:hover{
+                    color: white;
+                    transition: 0.5s;
+                    cursor: pointer;
+                    background-color:black;
+                    padding: 10px 30px;
+                    margin-top: 100px 20px;
+                }
+                
+                main{
+                    display: flex;
+                }
+                input {
+            padding-left: 15px;
+            width: 170px;
+            height: 40px;
+            border: none;
+            outline: none;
+            font-size: 19px;
+            color:white;
+            background: transparent;
+            margin-top: -2px;
+         }
+         .btn-search{
+            border:none;
+            background: transparent;
+            cursor: pointer;
+         }
+         img{
+            margin-right: 5px;
+         }
+         .search{
+        border:solid 1px white;
+        border-radius: 20px;
+        height: 40px;
+        margin-left:100px ;
+       }
+       
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  #f4f4f4;
+  color: #333;
+}
+.hero {
+ 
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+.button {
+  display: inline-block;
+  background-color: #3d6098;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.prod{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.product p {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.product .price {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+  background-color: #3d6098;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.foot{
+  width: 100%;
+  margin-top: 1100px;
+  position: absolute;
+  margin-left: 760px;
+  
+  color: black;
+ 
+}
+.tittle{
+  background: linear-gradient(50deg,white,#3d6098);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.test{
+  transition: 0.5s;
+}
+.test:hover{
+  cursor: pointer;
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+
+
+    </style>
+    <body>
+        <header>
+            <div class="logo">
+                <h1><span class="tittle">HOPEVICKS</span></h1>
+            </div>
+            <nav>
+            <a class="head" href="#head">О нас</a>
+            <a class="basket" href="#basket">Корзина</a>
+            <a class="items" href="#items">Контакты</a>
+        </nav>
+        <div class="search">
+            <form action="" method=""></form>
+            <input type="text" placeholder="поиск">
+            <button type="submit" class="btn-search"><img src="https://opt-baza61.ru/local/templates/eshop_bootstrap_v4/images/lupa.png" width="20px" height="20px" alt="search" > </button>
+        </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+
+               
+                  <h2>Добро пожаловать!</h2>
+                  <p>Выгодные и качественные товары<br>по лучшим ценам</p>
+                  <a href="#" class="button">Смотреть каталог</a>
+                 </div>
+              </section>
+              
+              <section class="featured-products">
+                <div class="prod">
+                  <h2>Популярные товары</h2>
+                  <div class="product-grid">
+                    <div class="product">
+                      <img class="test" src="https://newton.by/upload/delight.webpconverter/upload/medialibrary/eb0/eb0a5980061bc39ad32ff6e956f2fccc.png.webp?169789549663586" alt="Товар 1">
+                      <h3>Пылесос</h3>
+                      <p>
+                        Представляем вам бытовой пылесос это мощный, компактный, красивый работник по дому, который облегчит ежедневные заботы по уборке в квартире, на даче или в офисе. Бытовая техника - идеальное решение для тех, кто ищет надежный.</p>
+                      <span class="price">1999 ₽</span>
+                      <a href="#" class="btn">В корзину</a>
+                    </div>
+                    <div class="product">
+                      <img class="test" src="https://avatars.mds.yandex.net/i?id=9793413f31fc926667b75e17fe25635ccfb4adf2-5541872-images-thumbs&n=13" alt="Товар 2">
+                      <h3>Чайник</h3>
+                      <p>
+                        Чайник 1130 объемом 4,5 литра - это сочетание стиля, функциональности и качества. Изготовленный из нержавеющей стали 18/10, этот чайник обеспечивает долговечность и устойчивость к ржавчине.
+                        
+                        </p>
+                      <span class="price">2499 ₽</span>
+                      <a href="#" class="btn">В корзину</a>
+                    </div>
+                    <div class="product">
+                      <img class="test" src="https://i.pinimg.com/originals/53/7c/75/537c7569af230ee52f79cb37e6461bfe.png" alt="Товар 3">
+                      <h3>Утюг</h3>
+                      <p>Паровой утюг с противокапельной системой, вертикальным отпариванием, системой самоочистки, паровым ударом 185 г/мин, 2400 Вт, голубой. Постоянный пар до 40 г/мин и паровой удар 185 г/мин позволят быстро и эффективно разглаживать стойкие складки и плотные ткани.</p>
+                      <span class="price">1499 ₽</span>
+                      <a href="#" class="btn">В корзину</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </main>
+    </body>
+    <footer>
+      <div class="foot">
+      <p>&copy; 2025 HOPEVICKS. Маркетплейс.</p>
+    </div>
+    </footer>
+</html>
